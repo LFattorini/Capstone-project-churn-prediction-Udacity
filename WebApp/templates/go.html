@@ -1,0 +1,23 @@
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    {% if result == 0 %}
+        <div class="alert alert-success ml-4 col-10" role="alert">
+            <h4 class="alert-heading">Good news!</h4>
+            <p>The customer is unlikely to churn.</p>
+        </div>
+    {% else %}
+        {% if result == 1 %}
+            <div class="alert alert-danger ml-4 col-11" role="alert">
+                <h4 class="alert-heading">Warning!</h4>
+                <p>The customer is likely to churn.</p>
+            </div>
+        {% else %}
+            <div class="alert alert-warning ml-4 col-10" role="alert">
+                <h4 class="alert-heading">Something went wrong.</h4>
+                <p>The model wasn't able to predict customer churn.</p>
+            </div>
+        {% endif %}
+    {% endif %}
+{% endblock %}
