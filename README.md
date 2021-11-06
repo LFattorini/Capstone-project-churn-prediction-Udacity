@@ -91,7 +91,7 @@ We use this **machine learning model trained on the full dataset on AWS EMR** to
 
 ### Demo of the webapp
 
-![](demo_webapp)
+![](WebApp/demo/demo_webapp.gif)
 
 
 ## Challenges and future improvements
