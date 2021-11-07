@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Sparkify is a popular (not real!) music service** similar to Spotify or Pandora with a **subscription-based business model**. Each user can listen to their favorite music every day either through the **free-tier** that inserts advertisements between songs or by using a **subscription plan where she pays a fixed monthly fee**. Users can **upgrade, downgrade, or cancel the service at any time**, so it's critical to be sure users love the service.
+**Sparkify is a popular (not real!) music service** similar to Spotify or Pandora with a **subscription-based business model**. Each user can listen to their favorite music every day either through the **free-tier** or by using a **subscription plan where she pays a fixed monthly fee**. Users can **upgrade, downgrade, or cancel the service at any time**, so it's critical to be sure users love the service.
 
 **Every time a user interacts with the service it generates (synthetic) data**. Each event (e.g., song played, logout, like, downgrade, ...) is recorded with the corresponding timestamp. All of this information holds the key to keeping users happy and businesses thriving.
 
@@ -16,7 +16,7 @@ By **identifying** these **users before they abandon the service**, Sparkify can
 
 We explore several **binary classification models**, where the target variable is 0 if the customer did not churn and 1 otherwise.
 
-**To identify the best model** that helps us in predicting custome churn, we complete the following tasks: <br>
+**To identify the best model** that helps us in predicting customer churn, we complete the following tasks: <br>
 
 - **Analyze and preprocess the data**
 - Use **Machine learning pipelines**
@@ -66,18 +66,10 @@ The **full dataset contains a large amount of data**, which cannot be processed 
     - estimator
     - evaluator
     - metadata
-
-- data
-  - mini_sparkify_event_data.json # mini-data file (128MB)
-
-- demo
-  - main.png # the screenshot of the main page
-  - result.png # the screenshot of page with prediction result
-  - demo1.gif # animation with successful prediction
-  - demo2.gif # animation with prediction of churn
-
-- Sparkify.ipynb # Jupyter notebook that contains detailed data analysis and model building with Spark (Pyspark and SparkML libraries) run on the small subset
-- Sparkify_AWS-110321.ipynb # Jupyter notebook that contains the analysis run using the full available dataseton AWS EMR
+  - demo
+    - demo_webapp.gif # animation with prediction of churn
+  - Sparkify.ipynb # Jupyter notebook that contains detailed data analysis and model building with Spark (Pyspark and SparkML libraries) run on the small subset
+  - Sparkify_AWS-110321.ipynb # Jupyter notebook that contains the analysis run using the full available dataset on AWS EMR
 ```
 ## Instructions for running the web app:
 
@@ -101,7 +93,7 @@ To improve the performance of the most promising models we can: <br>
 - Spend more time engineering features by trying to think of more meaningful features (e.g., sequence of events that precede user's churn).
 - Do more tuning of hyperparameters.
 - Perform stacking of models.
-- Find a better approach to dealing with strongly imbalanced data.
+- Find a better approach to dealing with strongly unbalanced data.
 
 
 ## Licensing, Authors, Acknowledgements.
