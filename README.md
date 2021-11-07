@@ -1,5 +1,7 @@
 # Capstone-Project-Sparkify-Churn-Prediction-Udacity
 
+#### Full report available at [Sparkify Churn Prediction Report.pdf](https://github.com/LFattorini/capstone-project-churn-prediction-udacity/blob/master/Sparkify%20Churn%20Prediction%20Report.pdf)
+
 ## Project Overview
 
 **Sparkify is a popular (not real!) music service** similar to Spotify or Pandora with a **subscription-based business model**. Each user can listen to their favorite music every day either through the **free-tier** or by using a **subscription plan where she pays a fixed monthly fee**. Users can **upgrade, downgrade, or cancel the service at any time**, so it's critical to be sure users love the service.
