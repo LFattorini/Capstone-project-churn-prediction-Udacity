@@ -1,4 +1,4 @@
 models_aws/*
 models_results/*
 mini_sparkify_event_data.json
-*.pages
+Sparkify Churn Prediction Report.pages
