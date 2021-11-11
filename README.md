@@ -48,7 +48,7 @@ The **full dataset contains a large amount of data**, which cannot be processed 
 * Python3
 * Pyspark
 * Numpy, Pandas
-* Data Visualization: Plotly, Seaborn, Matplolib
+* Data Visualization: Plotly, Seaborn, Matplotlib
 * Web App: Flask 
 
 
@@ -70,8 +70,8 @@ The **full dataset contains a large amount of data**, which cannot be processed 
     - metadata
   - demo
     - demo_webapp.gif # animation with prediction of churn
-  - Sparkify.ipynb # Jupyter notebook that contains detailed data analysis and model building with Spark (Pyspark and SparkML libraries) run on the small subset
-  - Sparkify_AWS-110321.ipynb # Jupyter notebook that contains the analysis run using the full available dataset on AWS EMR
+  - Sparkify.ipynb # Jupyter notebook that contains detailed data analysis and model building with Spark (Pyspark and SparkML libraries) ran on the small subset
+  - Sparkify_AWS-110321.ipynb # Jupyter notebook that contains the analysis ran using the full available dataset on AWS EMR
 ```
 ## Instructions for running the web app:
 
